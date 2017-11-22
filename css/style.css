@@ -1,4 +1,4 @@
-/* GLOBAL AND Mobile STYLES First */
+/* GLOBAL AND MOBILE STYLES FIRST */
 
 body {
 
@@ -35,18 +35,56 @@ a {
   text-decoration: none;
 }
 
-/* GLOBAL AND MOBILE STYLES FIRST */
 
-/* Mobile site first (medium size) */
+
+/* For Tablet size (medium size) */
 
 @media screen and (min-width: 500px) {
-  
-	
+    nav a {
+    width: 44%;
+    display: inline-block;
+  }
+  nav a:hover {
+    background: #777;
+  }
+	main {
+    width: 90%;
+    margin: 0 auto;
+  }
+  section {
+    width: 44%;
+    margin: 2%;
+    display: inline-block;
+    background: #444;
+    color: #999;
+  }
+  section:hover {
+    background: #666;
+  }
 }
 
-/*Second breakpoint desktop breakpoint (desktop size)*/
+/*Second breakpoint desktop size (desktop size)*/
 
 @media screen and (min-width: 1000px) {
+  nav {
+    display: block;
+  }
+  nav a {
+    line-height: 3em;
+    width: 160px;
+  }
+  #menu {
+    display: none;
+  }
 
-
+  main {
+    max-width: 1000px;
+  }
+  section {
+    width: 22%;
+    margin: 1em 1% 1em 1%;
+    background: #222;
+    border-color: #666;
+    font-size: 1.5em;
+  }
 }
