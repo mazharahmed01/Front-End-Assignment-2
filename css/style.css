@@ -54,7 +54,7 @@ section:hover {
 
 /* For Tablet size (medium size) */
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 750px) {
     nav a {
     width: 44%;
     display: inline-block;
@@ -80,7 +80,7 @@ section:hover {
 
 /*Second breakpoint desktop size (desktop size)*/
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1024px) {
   nav {
     display: block;
   }
