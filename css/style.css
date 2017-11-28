@@ -40,7 +40,16 @@ h1 {
   font-family: Impact;
 }
 
-
+section {
+    width: 100%;
+    margin: 1em 1% 1em 1%;
+    background: #222;
+    border-color: #666;
+    font-size: 1.5em;
+  }
+section:hover {
+    background: #666;
+  }
 
 
 /* For Tablet size (medium size) */
@@ -87,10 +96,13 @@ h1 {
     max-width: 1000px;
   }
   section {
-    width: 22%;
+    width: 25%;
     margin: 1em 1% 1em 1%;
     background: #222;
     border-color: #666;
     font-size: 1.5em;
+  }
+  section:hover {
+    background: #666;
   }
 }
