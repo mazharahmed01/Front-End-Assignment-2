@@ -8,20 +8,6 @@ body {
   text-align: center;
 }
 
-nav {
-  background-color: #333;
-  display: none;
-}
-
-nav a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-family: Century Gothic;
-}
-
 #menu{
   padding: 1em;
   background: #fff;
@@ -40,69 +26,130 @@ h1 {
   font-family: Impact;
 }
 
-section {
+.teams {
+ 
+  position: relative;
+  display: inline-block;
+}
+
+.teams img{
+ 
+  display: block;
+}
+.teams .img-top {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+
+.teams:hover .img-top{
+  display: inline-block;
+}
+
+.latestnews-container {
+   background-color:yellow;
+    width: 33.3%;
+    height: auto px;
+    box-shadow:10px 10px black; 
+    
+}
+.standings-container {
+   width: 33.3%;
+    height: auto;
+    background-color: blue;
+    box-shadow: 10px 10px 5px #888888;
+    
+}
+.racecalender-container {
+   width: 33.3%;
+    height: auto;
+    background-color: yellow;
+    box-shadow: 10px 10px 5px #888888;
+    
+}
+.teams-container {
+    width: 50%;
+    height: auto;
+    background-color: yellow;
+    box-shadow: 10px 10px 5px #888888;
+    
+}
+.drivers-container {
+    width: 50%;
+    height: auto;
+    background-color: yellow;
+    box-shadow: 10px 10px 5px #888888;
+    
+}
+
+/* Style the footer */
+#footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
     width: 100%;
-    margin: 1em 1% 1em 1%;
-    background: #222;
-    border-color: #666;
-    font-size: 1.5em;
-  }
-section:hover {
-    background: #666;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+@media screen and (min-width: 300px) {
+  nav {
+    background-color: #333;
+    display: none;
+    list-style: none;
   }
 
-
+  nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Century Gothic;
+  }
+ 
+}
 /* For Tablet size (medium size) */
-
-@media screen and (min-width: 750px) {
-    nav a {
+@media screen and (min-width: 650px) {
+  nav a {
     width: 44%;
     display: inline-block;
   }
   nav a:hover {
     background: #777;
   }
-	main {
-    width: 90%;
-    margin: 0 auto;
-  }
-  section {
-    width: 44%;
-    margin: 2%;
-    display: inline-block;
-    background: #444;
-    color: #999;
-  }
-  section:hover {
-    background: #666;
-  }
+
 }
+
+
 
 /*Second breakpoint desktop size (desktop size)*/
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1200px) {
   nav {
     display: block;
   }
   nav a {
     line-height: 3em;
-    width: 200px;
+    width: 13%;
   }
   #menu {
     display: none;
   }
 
-  main {
-    max-width: 1000px;
-  }
-  section {
+ 
+  .teams {
     width: 25%;
-    margin: 1em 1% 1em 1%;
-    background: #222;
-    border-color: #666;
-    font-size: 1.5em;
   }
-  section:hover {
-    background: #666;
-  }
+
 }

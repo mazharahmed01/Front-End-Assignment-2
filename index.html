@@ -9,7 +9,7 @@
 
 <body>
 	<h1>F1 News</h1>
-	<img id="menu" href="#" src="icons/mobile-menu.png">
+	<a id="menu" href="#"><img src="icons/mobile-menu.png"></a>
 	<nav id="nav-menu">
 		<a href="index.html">Home</a>
 		<a href="standings.html">Standings</a>
@@ -22,39 +22,38 @@
 	<div class="slideshow-container">
 
 		<div class="mySlides fade">
-			<img id=slide src="images/Lewis-champion.jpg" style="width:80%">
+			<img id=slide src="images/Lewis-champion.jpg">
 			<h1> LEWIS HAMILTON FOUR TIMES WORLD CHAMPION!</h1>
-			
 		</div>
 
 		<div class="mySlides fade">
-		    <img src="images/Yas-Marina-Night.jpg" style="width:80%">
+		    <img id=slide src="images/Yas-Marina-Night.jpg">
 		    <h1>UP NEXT ABU DHABI</h1>
 		</div>
 
-	  <div class="mySlides fade">
-		  <img src="images/Ferrari.jpg" style="width:80%">
+	  	<div class="mySlides fade">
+		  <img id=slide src="images/Ferrari.jpg">
 		  <h1>WHAT HAPPEND TO FERRARI'S SEASON?</h1>
-	  </div>
+	  	</div>
 
-	  <div class="mySlides fade">
-		  <img src="images/merc5.jpg" style="width:80%">
+	  	<div class="mySlides fade">
+		  <img id=slide src="images/merc5.jpg">
 		  <h1>MERCEDES RELEASE A NEW CHALLENGER</h1>
-	  </div>
-
-	  <div style="text-align:center">
+	  	</div>
+	</div>
+	
+	<div style="text-align:center">
   		<span class="dot"></span> 
   		<span class="dot"></span> 
   		<span class="dot"></span> 
   		<span class="dot"></span>
-		</div>
 	</div>
 
 	<script src="js/slideshow.js"></script>
 
 	<section class="latestnews-container">
-
-		<img src="images/lewiscrash.jpg" alt="Lewis Crashes Out Of Qually" >
+		<br>
+		<a><img src="images/lewiscrash.jpg" alt="Lewis Crashes Out Of Qually" > Lewis Crashes Out Of Qually</a>
 		<img src="images/lewiscrash.jpg" alt="Lewis Crashes Out Of Qually" >
 		<a> Click Here To View Latest News </a>
 	</section>
@@ -62,6 +61,47 @@
 
 	<section class="standings-container">
 		<a> Click Here To View Current Standings </a>
+		<table>
+			<th>
+				<td>Position</td>
+				<td>Driver</td>
+				<td>Team</td>
+				<td>Points</td>
+			</th>
+			<tr>
+				<td>1</td>
+				<td>Lewis Hamilton</td>
+				<td>Mercedes</td>
+				<td>363</td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td>Sabastian Vettel</td>
+				<td>Ferrari</td>
+				<td>317</td>
+			</tr>
+			<tr>
+				<td>3</td>
+				<td>Valteri Botta</td>
+				<td>Mercedes</td>
+				<td>305</td>
+			</tr>
+			<tr>
+				<td>4</td>
+				<td>Kimmi Raikkonen</td>
+				<td>Ferrari</td>
+				<td>205</td>
+			</tr>
+			<tr>
+				<td>5</td>
+				<td>Daniel Ricciardo</td>
+				<td>Red Bull</td>
+				<td>168</td>
+			</tr>
+			<tr>
+
+			</tr>
+		</table>
 	</section>
 
 
@@ -79,7 +119,9 @@
 		<a> Click Here To View All Drivers </a>
 	</section>
 
-	
+	<section id="footer">
+  		<p>Footer</p>
+	</section>
 </body>
 
 
