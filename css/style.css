@@ -62,9 +62,9 @@ h1 {
 
 /* Style the footer */
 #footer {
-    background-color: #f1f1f1;
-    padding: 10px;
-    text-align: center;
+  background-color: #414042;
+  padding: 10px;
+  text-align: center;
 }
 
 table {
@@ -108,29 +108,34 @@ nav a:hover {
 
   #standings-container{
     width: 100%;
+    background-color: #f1f1f1;
   }
 
 
   #racecalender-container{
     width: 100%;
+    background-color: #f1f1f1;
   }
 
   #latestnews-container{
     padding-top: 1cm;
-
+    background-color: #f1f1f1;
     width: 100%;
   }
 
   #latestnews-container1{
     width: 100%;
+    background-color: #f1f1f1;
   }
 
     #teams-container{
     width: 100%;
+    background-color: #f1f1f1;
   }
 
     #drivers-container{
     width: 100%;
+    background-color: #f1f1f1;
   }
  
 }
@@ -141,7 +146,8 @@ nav a:hover {
     display: inline-block;
   }
 
-    #standings-container{
+  #standings-container{
+
     width: 50%;
   }
 
@@ -155,8 +161,6 @@ nav a:hover {
     width: 50%;
   }
    #latestnews-container{
-    padding-top: 1cm;
-
     width: 50%;
   }
 
@@ -191,31 +195,46 @@ nav a:hover {
     width: 25%;
   }
 
-  #standings-container{
-    width: 25%;
-
-  }
-
-
   #racecalender-container{
-    width: 25%;
+    padding-top: 1cm;
+    width: 32.2%;
+    display: flex;
+    flex-direction: row;
   }
 
   #latestnews-container{
     padding-top: 1cm;
-
-    width: 33%;
+    width: 32.2%;
+    display: flex;
+    flex-direction: row;
   }
   #latestnews-container1{
-
-    width: 50%;
+    padding-top: 1cm;
+    width: 32.2%;
+    display: flex;
+    flex-direction: row;
   }
 
-    #teams-container{
-    width: 25%;
+    #standings-container{
+    padding-top: 1cm;
+    width: 32.2%;
+    display: flex;
+    flex-direction: row;
   }
 
-    #drivers-container{
-    width: 25%;
+  #teams-container{
+    padding-top: 1cm;
+    width: 32.2%;
+    display: flex;
+    flex-direction: row;
   }
+
+  #drivers-container{
+    padding-top: 1cm;
+    width: 32.2%;
+    display: flex;
+    flex-direction: row;
+  }
+
+
 }
