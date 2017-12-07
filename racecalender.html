@@ -9,16 +9,33 @@
 
 <body>
 	<h1>F1 News</h1>
-	<a id="menu" href="#">Menu</a>
+	<a id="menu" href="#"><img src="icons/mobile-menu.png"></a>
 	<nav id="nav-menu">
 		<a href="index.html">Home</a>
 		<a href="standings.html">Standings</a>
-		<a href="racecalender.html">Race Caldender</a>
+		<a href="racecalender.html">Race Calender</a>
 		<a href="teams.html">Teams</a>
 		<a href="drivers.html">Drivers</a>
 		<a href="latestnew.html">Latest News</a>
 	</nav>
 	<script src="js/menu.js"></script>
+
+	<section id="Australia">
+		<h1>Australian Grand Prix</h1>
+		<a>Melbourne, 24-26 March</a>
+		<div id="australiaMap" class="map"></div>
+	</section>
+
+
+	<section id="Chinese">
+		<h1>Chinese Grand Prix</h1>
+		<a>Shanghai, 7-9 April</a>
+		<div id="chineseMap" class="map"></div>
+	</section>
+
+	<script src="js/maps.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkXVrNmcea7f4VJO3iodaScn7tYouF8ec&callback=initMap">
+    </script>
 	
 </body>
 

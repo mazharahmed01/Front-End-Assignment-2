@@ -48,40 +48,16 @@ h1 {
   display: inline-block;
 }
 
-.latestnews-container {
-   background-color:yellow;
-    width: 33.3%;
-    height: auto px;
-    box-shadow:10px 10px black; 
-    
-}
-.standings-container {
-   width: 33.3%;
-    height: auto;
-    background-color: blue;
-    box-shadow: 10px 10px 5px #888888;
-    
-}
-.racecalender-container {
-   width: 33.3%;
-    height: auto;
-    background-color: yellow;
-    box-shadow: 10px 10px 5px #888888;
-    
-}
-.teams-container {
-    width: 50%;
-    height: auto;
-    background-color: yellow;
-    box-shadow: 10px 10px 5px #888888;
-    
-}
-.drivers-container {
-    width: 50%;
-    height: auto;
-    background-color: yellow;
-    box-shadow: 10px 10px 5px #888888;
-    
+.map {
+
+  height: 400px;
+  width: 80%;
+  margin: auto;
+
+} 
+
+#homepage {
+  width: 25%;
 }
 
 /* Style the footer */
@@ -101,14 +77,26 @@ th, td {
     padding: 8px;
 }
 
-tr:nth-child(even) {background-color: #f2f2f2;}
-@media screen and (min-width: 300px) {
-  nav {
-    background-color: #333;
-    display: none;
-    list-style: none;
-  }
+tr:nth-child(even) {
+  background-color: #db2f2f;
+  color: #fff;
+}
+tr:nth-child(odd) {
+  background-color: #000000;
+  color: #fff;
+}
+nav {
+  background-color: #333;
+  display: none;
+  list-style: none;
+}
+nav a:hover {
+   background: #777;
+}
 
+
+
+@media screen and (min-width: 300px) {
   nav a {
     display: block;
     color: white;
@@ -116,6 +104,33 @@ tr:nth-child(even) {background-color: #f2f2f2;}
     padding: 14px 16px;
     text-decoration: none;
     font-family: Century Gothic;
+  }
+
+  #standings-container{
+    width: 100%;
+  }
+
+
+  #racecalender-container{
+    width: 100%;
+  }
+
+  #latestnews-container{
+    padding-top: 1cm;
+
+    width: 100%;
+  }
+
+  #latestnews-container1{
+    width: 100%;
+  }
+
+    #teams-container{
+    width: 100%;
+  }
+
+    #drivers-container{
+    width: 100%;
   }
  
 }
@@ -125,8 +140,32 @@ tr:nth-child(even) {background-color: #f2f2f2;}
     width: 44%;
     display: inline-block;
   }
-  nav a:hover {
-    background: #777;
+
+    #standings-container{
+    width: 50%;
+  }
+
+
+  #racecalender-container{
+    width: 50%;
+  }
+
+  #latestnews-container1{
+    padding-top: 1cm;
+    width: 50%;
+  }
+   #latestnews-container{
+    padding-top: 1cm;
+
+    width: 50%;
+  }
+
+    #teams-container{
+    width: 50%;
+  }
+
+    #drivers-container{
+    width: 50%;
   }
 
 }
@@ -152,4 +191,31 @@ tr:nth-child(even) {background-color: #f2f2f2;}
     width: 25%;
   }
 
+  #standings-container{
+    width: 25%;
+
+  }
+
+
+  #racecalender-container{
+    width: 25%;
+  }
+
+  #latestnews-container{
+    padding-top: 1cm;
+
+    width: 33%;
+  }
+  #latestnews-container1{
+
+    width: 50%;
+  }
+
+    #teams-container{
+    width: 25%;
+  }
+
+    #drivers-container{
+    width: 25%;
+  }
 }
