@@ -95,7 +95,7 @@ nav a:hover {
 
 
 
-@media screen and (min-width: 450px) {
+
   nav a {
     display: block;
     color: white;
@@ -113,9 +113,8 @@ nav a:hover {
     background-color: #f1f1f1;
   }
  
-}
 /* For Tablet size (medium size) */
-@media screen and (min-width: 650px) {
+@media screen and (min-width: 600px) {
   nav a {
     width: 44%;
     display: inline-block;
