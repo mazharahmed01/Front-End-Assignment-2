@@ -7,13 +7,13 @@ var modalImg = document.getElementById("img01");
 var captionText = document.getElementById("caption");
 
 
-window.openModal = function(img) {
+window.openModal = function() {
   modal.style.display = "block";
   modalImg.src = this.src;
   captionText.innerHTML = this.alt;
 }
 
-var images = document.querySelectorAll('img');
+var images = document.getElementsByClassName('driverimage');
 for(var i=0, len = images.length; i < len; i++){
     images[i].addEventListener('click', openModal);
 }
