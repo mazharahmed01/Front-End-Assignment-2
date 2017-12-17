@@ -93,17 +93,14 @@ nav a:hover {
    background: #777;
 }
 
-
-
-
-  nav a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-family: Century Gothic;
-  }
+nav a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: Century Gothic;
+}
 
   .newscontainer{
     
@@ -111,10 +108,15 @@ nav a:hover {
     display: inline-block;
     width: 100%;
     background-color: #f1f1f1;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px #888888;
   }
  
+
+
 /* For Tablet size (medium size) */
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 650px) {
   nav a {
     width: 44%;
     display: inline-block;
