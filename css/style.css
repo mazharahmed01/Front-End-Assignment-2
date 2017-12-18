@@ -108,12 +108,8 @@ nav a {
     display: inline-block;
     width: 100%;
     background-color: #f1f1f1;
-    border: 1px solid;
-    padding: 10px;
-    box-shadow: 5px 10px #888888;
   }
  
-
 
 /* For Tablet size (medium size) */
 @media screen and (min-width: 650px) {
