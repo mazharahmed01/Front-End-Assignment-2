@@ -66,21 +66,21 @@ h1 {
   text-align: center;
 }
 
-table {
+.maintable {
     border-collapse: collapse;
     width: 100%;
 }
 
-th, td {
+.maintable th, td {
     text-align: left;
     padding: 8px;
 }
 
-tr:nth-child(even) {
+.maintable tr:nth-child(even) {
   background-color: #db2f2f;
   color: #fff;
 }
-tr:nth-child(odd) {
+.maintable tr:nth-child(odd) {
   background-color: #000000;
   color: #fff;
 }
@@ -110,9 +110,121 @@ nav a {
     width: 100%;
     background-color: #f1f1f1;
   }
- 
+
+main > input,
+.tab-content {
+  display: none;
+  padding: 1em;
+  clear: both;
+}
 
 
+label {
+  display: block;
+  box-sizing: border-box;
+  float: left;
+  width: 50%;
+  color: #0c0c0c;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  background: #000;
+  line-height: 3em;
+  border-right: 1px solid #444;
+}
+
+/* hides the tab text but leaves the icons visible: */
+
+label span {
+  color: #fff;
+}
+
+label:last-child {
+  border-right: none;
+}
+
+#tab1:checked ~ #content1,
+#tab2:checked ~ #content2{
+  display: block;
+}
+[id^="tab"]:checked + label {
+  background: #ccc;
+  color: #222;
+}
+
+[id^="tab"]:checked + label .fa {
+  color: #090;
+}
+
+.tab_container section * {
+  animation: fadeIn 0.7s ease-in-out;
+}
+.tab-content {
+  background: #fff;
+}
+
+.fa {
+  margin-right: 10px;
+}
+
+@keyframes fadeIn {
+  0% { 
+    opacity: 0;
+  }
+  100% { 
+    opacity: 1;
+  }
+}
+
+.standings{
+  color: #333;
+  font-family: Helvetica, Arial, sans-serif;
+  width: 70%; 
+  border-collapse: collapse; 
+  border-spacing: 0;
+  position: relative;
+  margin: auto;
+
+}
+
+.standings td,th{
+  border: 1px solid transparent; /* No more visible border */
+  height: 30px; 
+  transition: all 0.3s;  /* Simple transition for hover effect */
+  text-align: left;
+}
+
+.standings th{
+  background: linear-gradient(#333 0%,#444 100%);
+  color: #FFF; 
+  font-weight: bold;
+  height: 40px;
+}
+
+.standings td{
+  background: #FAFAFA;
+  
+}
+
+/* Cells in even rows (2,4,6...) are one color */        
+.standings tr:nth-child(even) td { background: #bdb7b7; }   
+
+/* Cells in odd rows (1,3,5...) are another (excludes header cells)  */        
+.standings tr:nth-child(odd) td { 
+  background: #FEFEFE;
+  color: black; }  
+
+.standings tr td:hover { background: #666; color: #FFF; }  
+/* Hover cell effect! */
+
+/* Add border-radius to specific cells! */
+.standings tr:first-child th:nth-child(1) { 
+  border-radius: 5px 0 0 0; 
+} 
+
+.standings tr:first-child th:last-child { 
+  border-radius: 0 5px 0 0; 
+}
 
 /* For Tablet size (medium size) */
 @media screen and (min-width: 650px) {

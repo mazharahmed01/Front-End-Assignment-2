@@ -155,6 +155,199 @@ a {
   cursor: pointer;
 }
 
+.mercedes {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.mercedes th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+.mercedes tr:nth-child(even) {
+  background-color: #05a98c;
+  color: #fff;
+}
+.mercedes tr:nth-child(odd) {
+  background-color: #000000;
+  color: #fff;
+}
+
+
+.ferrari {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.ferrari th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+.ferrari tr:nth-child(even) {
+  background-color: #db2f2f;
+  color: #fff;
+}
+.ferrari tr:nth-child(odd) {
+  background-color: #000000;
+  color: #fff;
+}
+
+.redbull {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.redbull th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+.redbull tr:nth-child(even) {
+  background-color: #053aa9;
+  color: #fff;
+}
+.redbull tr:nth-child(odd) {
+  background-color: #000000;
+  color: #fff;
+}
+
+
+.forceindia {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.forceindia th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+.forceindia tr:nth-child(even) {
+  background-color: #f40af6;
+  color: #fff;
+}
+.forceindia tr:nth-child(odd) {
+  background-color: #000000;
+  color: #fff;
+}
+
+
+.reno {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.reno th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+.reno tr:nth-child(even) {
+  background-color: #f4f60a;
+  color: #000000;
+}
+.reno tr:nth-child(odd) {
+  background-color: #000000;
+  color: #fff;
+}
+
+.williams {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.williams th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+.williams tr:nth-child(even) {
+  background-color: #1709a7;
+  color: #fff;
+}
+.williams tr:nth-child(odd) {
+  background-color: #000000;
+  color: #fff;
+}
+
+.haas {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.haas th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+.haas tr:nth-child(even) {
+  background-color: #6d6d74;
+  color: #fff;
+}
+.haas tr:nth-child(odd) {
+  background-color: #000000;
+  color: #fff;
+}
+
+.mclaren {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.mclaren th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+.mclaren tr:nth-child(even) {
+  background-color: #d8680a;
+  color: #fff;
+}
+.mclaren tr:nth-child(odd) {
+  background-color: #000000;
+  color: #fff;
+}
+
+.sauber {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.sauber th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+.sauber tr:nth-child(even) {
+  background-color: #2695e7;
+  color: #fff;
+}
+.sauber tr:nth-child(odd) {
+  background-color: #000000;
+  color: #fff;
+}
+
+.tororosso {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.tororosso th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+.tororosso tr:nth-child(even) {
+  background-color: #0c307c;
+  color: #fff;
+}
+.tororosso tr:nth-child(odd) {
+  background-color: #000000;
+  color: #fff;
+}
+
 @media screen and (min-width: 600px)  {
   .timeline ul li .listdirver {
     width: 250px;
