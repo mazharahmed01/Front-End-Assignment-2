@@ -203,6 +203,7 @@ label:last-child {
 
 .standings td{
   background: #FAFAFA;
+  cursor: pointer;
   
 }
 
@@ -226,6 +227,38 @@ label:last-child {
   border-radius: 0 5px 0 0; 
 }
 
+td .teams {
+  display:none;
+  width:250px;
+  height:150px;  
+}
+
+td img { 
+  display:none;
+  width:150px;
+  height:150px;  
+}
+td:hover img { 
+  position: absolute;
+  z-index: 999;
+  color: rgb(113, 157, 171);
+  background: rgb(255, 255, 255);
+  border: 4px solid rgb(255, 255, 255);
+  border-radius: 5px;
+  text-shadow: rgba(0, 0, 0, 0.0980392) 1px 1px 1px;
+  box-shadow: #333 -4px 4px 16px 2px;
+  -webkit-transition: opacity 100ms ease-in;
+  -o-transition: opacity 100ms ease-in;
+  -moz-transition: opacity 100ms ease-in;
+  transition: opacity 100ms ease-in;
+  pointer-events: none;    
+  display:block;
+  
+}
+
+
+
+
 /* For Tablet size (medium size) */
 @media screen and (min-width: 650px) {
   nav a {
@@ -242,7 +275,6 @@ label:last-child {
   
 
 }
-
 
 
 /*Second breakpoint desktop size (desktop size)*/
