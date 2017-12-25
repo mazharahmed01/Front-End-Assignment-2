@@ -163,6 +163,7 @@ a {
 .mercedes th, td {
     text-align: left;
     padding: 8px;
+
 }
 
 .mercedes tr:nth-child(even) {
@@ -360,13 +361,14 @@ a {
     margin: 0 auto;
   }
   .timeline ul li::after {
-    background: #fff;
+    background: #000;
     transition: background .5s ease-in-out;
   }
   /* Modal Content (image) */
   .modal-content {
     width: 80%;
   }
+
  
 }
 

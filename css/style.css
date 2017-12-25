@@ -102,13 +102,15 @@ nav a {
   font-family: Century Gothic;
 }
 
+
   .newscontainer{
-    
-    width: 45%;
-    display: inline-block;
-    height: 300px;
-    width: 100%;
-    background-color: #f1f1f1;
+      display: inline-block;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      height: auto;
+      width: 90%;
+      background-color: #f1f1f1;
   }
 
 main > input,
@@ -256,11 +258,62 @@ td:hover img {
   
 }
 
+.social{
+  width:40px;
+  height:40px;
+}
 
+.headline span{ 
+   
+   position: relative;
+   text-align: center;
+   margin: auto; 
+   width: 80%;
+  color: white; 
+   font: bold 20px/25px Helvetica, Sans-Serif; 
+   letter-spacing: -1px;  
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   padding: 10px; 
+}
+
+.homepage{
+  height: 200px;
+  width: 100%;
+}
+
+figure {
+  margin:auto;
+  width: 90%;
+  background: #aaa;
+  overflow: hidden;
+
+}
+
+
+figcaption {
+  box-sizing: border-box;
+  height: 4em
+  line-height: 1.2em;
+  padding: .25em;
+  transform: translateY(4em);
+  background: #000;
+  color: #fff;
+  /* background: rgba( 255, 255, 255, 0 ); */
+  opacity: 0;
+  transition: all .5s;
+}
+
+
+figure:hover figcaption {
+  transform: translateY(0em);
+  /* background: rgba( 255, 255, 255, .78 ); */
+  opacity: .78;
+}
 
 
 /* For Tablet size (medium size) */
-@media screen and (min-width: 650px) {
+@media screen and (min-width: 600px) {
   nav a {
     width: 44%;
     display: inline-block;
@@ -268,8 +321,9 @@ td:hover img {
 
   .newscontainer{
     
-    width: 45%;
-    display: inline-block;
+      display: inline-block;
+      width: 45%;
+      
   }
 
   
@@ -305,5 +359,9 @@ td:hover img {
    #maps{
   width: 45%;
   display: inline-block;
+ }
+ .headline span{ 
+   font: bold 24px/45px Helvetica, Sans-Serif; 
+
  }
 }

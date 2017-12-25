@@ -2,12 +2,14 @@
 
 <html> 
 <head> 
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title> Formula 1 </title>
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/slideshow.css">
 </head>
 
 <body>
+
 	<h1>F1 News</h1>
 	<a id="menu" href="#"><img src="icons/mobile-menu.png" alt="Menu"></a>
 	<nav id="nav-menu">
@@ -16,7 +18,6 @@
 		<a href="racecalender.html">Race Calender</a>
 		<a href="teams.html">Teams</a>
 		<a href="drivers.html">Drivers</a>
-		<a href="latestnew.html">Latest News</a>
 	</nav>
 	<script src="js/menu.js"></script>
 
@@ -24,22 +25,22 @@
 
 		<div class="mySlides fade">
 			<img class=slide src="images/Lewis-champion.jpg"  alt="Lewis Chmapion">
-			<h1> LEWIS HAMILTON FOUR TIMES WORLD CHAMPION!</h1>
+			<h1 class="headline"><span> LEWIS HAMILTON FOUR TIMES WORLD CHAMPION!</span></h1>
 		</div>
 
 		<div class="mySlides fade">
 		    <img class=slide src="images/Yas-Marina-Night.jpg" alt="Abu Dhabi Race Track">
-		    <h1>UP NEXT ABU DHABI</h1>
+		    <h1 class="headline"><span>UP NEXT ABU DHABI</span></h1>
 		</div>
 
 	  	<div class="mySlides fade">
 		  <img class=slide src="images/Ferrari.jpg" alt="Ferrari Car">
-		  <h1>WHAT HAPPEND TO FERRARI'S SEASON?</h1>
+		  <h1 class="headline"><span>WHAT HAPPEND TO FERRARI'S SEASON?</span></h1>
 	  	</div>
 
 	  	<div class="mySlides fade">
 		  <img class=slide src="images/merc5.jpg" alt="Mercedes New Car">
-		  <h1>MERCEDES RELEASE A NEW CHALLENGER</h1>
+		  <h1 class="headline"><span>MERCEDES RELEASE A NEW CHALLENGER</span></h1>
 	  	</div>
 	</div>
 	
@@ -49,25 +50,30 @@
 	
 
 	<section class="newscontainer">
-		<h2>image</h2>
-		<img src="images/lewiscrash.jpg" alt="Lewis Crashes Out Of Qually" > 
-		<div>
-			<a>Lewis Crashes Out Of Qually</a>
-		</div>
+		<h2>FIA and Formula 1 set out clear direction for 2021 F1 power units</h2>
+		<figure>
+		<img class="homepage" src="images/engine.jpg" alt="F1 Cars" > 
+		<figcaption>
+        	Formula 1 and governing body the FIA have laid out proposals for the next generation of F1 power units (PU), with improved noise, reduced cost, and a more level playing field among the key objectives.
+      </figcaption>
+  </figure>
+
 	</section>
 
 	<section class="newscontainer">
-		<h2>image</h2>
-		<img src="images/lewiscrash.jpg" alt="Lewis Crashes Out Of Qually" >
-		<div>
-			<a> Click Here To View Latest News </a>
-		</div>
+		<h2>Lewis Hamilton a deserving champion - Sabastian Vettel</h2>
+		<figure>
+		<img class="homepage" src="images/ham4times.jpg" alt="Lewis 4 Times World Champion" >
+		<figcaption>
+       		Sebastian Vettel has paid tribute to Lewis Hamilton after the Briton clinched the 2017 world title in Mexico, and in doing so equalled the Ferrari driver’s tally of four championship crowns.
+      </figcaption>
+  </figure>
 	</section>
 
 	
 	<section class="newscontainer">
 		<h2>Standings</h2>
-		<table class="maintable">
+				<table class="maintable">
 			<tr>
 				<th>Position</th>
 				<th>Driver</th>
@@ -105,27 +111,44 @@
 				<td>168</td>
 			</tr>
 		</table>
+		<div>
 		<a> Click Here To View Current Standings </a>
+		</div>
 	</section>
 
 
 	<section class="newscontainer">
+		<h2>Race Calender</h2>
 		<a> Click Here To View The Race Calender </a>
 	</section>
 
 
 	<section class="newscontainer">
+		<h2>Teams</h2>
 		<a> Click Here To View All Teams </a>
 	</section>
 
 
 	<section class="newscontainer">
+		<h2>Drivers</h2>
 		<a> Click Here To View All Drivers </a>
 	</section>
 	
 
 	<footer id="footer">
-  		<p>Footer</p>
+  		
+  		<p>Follow us on Social Media
+  		<a href="https://twitter.com/search-home?lang=en-gb"><img class="social" src="icons/twitter.png" alt="Twitter Icon" ></a>
+  		<a href="https://en-gb.facebook.com/"><img class="social" src="icons/fb.png" alt="Facebook Icon" ></a>
+  		<a href="https://www.whatsapp.com/"><img class="social" src="icons/whatsapp.png" alt="Whatsapp Icon" ></a>
+  		<a href="https://www.snapchat.com/l/en-gb/"><img class="social" src="icons/snapchat.png" alt="Snapchat Icon" ></a>
+  		<a href="https://plus.google.com/discover"><img class="social" src="icons/google.png" alt="Google+ Icon" ></a>
+  		<a href="https://uk.linkedin.com/"><img class="social" src="icons/linkedin.png" alt="Linkedin Icon" ></a>
+  		<a href="https://www.instagram.com/?hl=en"><img class="social" src="icons/insta.png" alt="Instagram Icon" ></a>
+  		<a href="https://www.youtube.co.uk/?hl=en"><img class="social" src="icons/youtube.png" alt="YouTube Icon" ></a></p>
+  		<p><a>Copyright 2017 &copy; Mazhar Ahmed</a>
+  		<a>Sitemap</a>
+  		<a>Terms and Conditions</a></p>
 	</footer>
 </body>
 
