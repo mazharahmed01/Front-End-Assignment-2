@@ -72,73 +72,132 @@
 
 	
 	<section class="newscontainer">
-		<h2>Standings</h2>
-				<table class="maintable">
-			<tr>
-				<th>Position</th>
-				<th>Driver</th>
-				<th>Team</th>
-				<th>Points</th>
-			</tr>
-			<tr>
-				<td>1</td>
-				<td>Lewis Hamilton</td>
-				<td>Mercedes</td>
-				<td>363</td>
-			</tr>
-			<tr>
-				<td>2</td>
-				<td>Sabastian Vettel</td>
-				<td>Ferrari</td>
-				<td>317</td>
-			</tr>
-			<tr>
-				<td>3</td>
-				<td>Valteri Botta</td>
-				<td>Mercedes</td>
-				<td>305</td>
-			</tr>
-			<tr>
-				<td>4</td>
-				<td>Kimi Raikkonen</td>
-				<td>Ferrari</td>
-				<td>205</td>
-			</tr>
-			<tr>
-				<td>5</td>
-				<td>Daniel Ricciardo</td>
-				<td>Red Bull</td>
-				<td>168</td>
-			</tr>
+		<h2>Championship Standings</h2>
+			<main class="tab_container">
+		<input id="tab1" type="radio" name="tabs" checked>
+    	<!-- the *label* for the radio button forms the clickable tabs -->
+    	<label for="tab1"><i class="fa"></i><span>Drivers</span></label>
+		<input id="tab2" type="radio" name="tabs">
+		<!-- the *label* for the radio button forms the clickable tabs -->
+		<label for="tab2"><i class="fa"></i><span>Constructors</span></label>
+
+    	<!- content for tab 1: HTML5 -->
+
+	    <section id="content1" class="tab-content">
+	  	      <table class="standings">
+	      	<tr>
+	      		<th>Position</th>
+	      		<th>Driver</th>
+	      		<th>Team</th>
+	      		<th>Wins</th>
+	      		<th>Points</th>
+	      	</tr>
+	      	<tr>
+	      		<td>1</td>
+	      		<td id="hamil">Lewis Hamilton <img src="images/lewis.jpg" alt="Lewis" > </td> 
+	      		<td>Mercedes</td>
+	      		<td>9</td>
+	      		<td>363</td>
+	      	</tr>
+	      	<tr>
+	      		<td>2</td>
+	      		<td>Sabastian Vettel <img src="images/vettel.jpg" alt="Vettel" > </td>
+	      		<td>Ferrari</td>
+	      		<td>5</td>
+	      		<td>317</td>
+	      	</tr>
+	      	<tr>
+	      		<td>3</td>
+	      		<td>Valterri Bottas <img src="images/bottas.jpg" alt="Bottas" > </td>
+	      		<td>Mercedes</td>
+	      		<td>3</td>
+	      		<td>305</td>
+	      	</tr>
+	      	<tr>
+	      		<td>4</td>
+	      		<td>Kimi Raikkonen<img src="images/kimi.jpg" alt="Kimi" ></td>
+	      		<td>Ferrari</td>
+	      		<td>0</td>
+	      		<td>205</td>
+	      	</tr>
 		</table>
+		</section>
+
+	    <section id="content2" class="tab-content">
+	      <table class="standings">
+	      	<tr>
+	      		<th>Position</th>
+	      		<th>Team</th>
+	      		<th>Points</th>
+	      	</tr>
+	      	<tr>
+	      		<td>1</td>
+	      		<td>Mercedes <img class="teams" src="images/mercedesf1.png" alt="Mercedes" ></td>
+	      		<td>668</td>
+	      	</tr>
+	      	<tr>
+	      		<td>2</td>
+	      		<td>Ferrari <img class="teams" src="images/ferrarif1.png" alt="Ferrari" ></td>
+	      		<td>522</td>
+	      	</tr>
+	      	<tr>
+	      		<td>3</td>
+	      		<td>Red Bull <img class="teams" src="images/redbullf1.png" alt="Red Bull" ></td>
+	      		<td>368</td>
+	      	</tr>
+	      	<tr>
+	      		<td>4</td>
+	      		<td>Force India <img class="teams" src="images/forceindiaf1.png" alt="Force India" ></td>
+	      		<td>187</td>
+	      	</tr>
+	      	<tr>
+	      		<td>5</td>
+	      		<td>Williams <img class="teams" src="images/williamsf1.png" alt="Williams" ></td>
+	      		<td>83</td>
+	      	</tr>
+	      	</table>
+	    </section>
+
+	</main>
 		<div>
-		<a> Click Here To View Current Standings </a>
+			<p><a href="standings.html" target="_top">Click Here </a>View Current Standings</p>
+		
 		</div>
 	</section>
 
 
 	<section class="newscontainer">
 		<h2>Race Calender</h2>
-		<a> Click Here To View The Race Calender </a>
+		<img class="homepage" src="images/racecalender.png" alt="racecalender" >
+		<div>
+			<p><a href="racecalender.html" target="_top">Click Here </a>View The Race Calender</p>
+		</div>
 	</section>
-
 
 	<section class="newscontainer">
 		<h2>Teams</h2>
-		<a> Click Here To View All Teams </a>
+		<div class="slideshow">
+			<img src="images/mercedesf1.png" alt="Mercedes" />
+			<img src="images/ferrarif1.png" alt="Ferrari" />
+			<img src="images/redbullf1.png" alt="Red Bull" />
+		</div>
+		<div>
+			<p><a href="teams.html" target="_top">Click Here </a>View All Teams</p>
+		</div>
 	</section>
 
 
 	<section class="newscontainer">
 		<h2>Drivers</h2>
+		<img class="homepage" src="images/drivers.jpg" alt="Drivers" >
 		<a> Click Here To View All Drivers </a>
 	</section>
 	
 
 	<footer id="footer">
   		
-  		<p>Follow us on Social Media
-  		<a href="https://twitter.com/search-home?lang=en-gb"><img class="social" src="icons/twitter.png" alt="Twitter Icon" ></a>
+  		<p>Follow us on Social Media</p>
+  		<p><a href="https://twitter.com/search-home?lang=en-gb"><img class="social" src="icons/twitter.png" alt="Twitter Icon" ></a>
   		<a href="https://en-gb.facebook.com/"><img class="social" src="icons/fb.png" alt="Facebook Icon" ></a>
   		<a href="https://www.whatsapp.com/"><img class="social" src="icons/whatsapp.png" alt="Whatsapp Icon" ></a>
   		<a href="https://www.snapchat.com/l/en-gb/"><img class="social" src="icons/snapchat.png" alt="Snapchat Icon" ></a>
@@ -146,9 +205,10 @@
   		<a href="https://uk.linkedin.com/"><img class="social" src="icons/linkedin.png" alt="Linkedin Icon" ></a>
   		<a href="https://www.instagram.com/?hl=en"><img class="social" src="icons/insta.png" alt="Instagram Icon" ></a>
   		<a href="https://www.youtube.co.uk/?hl=en"><img class="social" src="icons/youtube.png" alt="YouTube Icon" ></a></p>
-  		<p><a>Copyright 2017 &copy; Mazhar Ahmed</a>
-  		<a>Sitemap</a>
-  		<a>Terms and Conditions</a></p>
+  		<p><a>Copyright 2017 &copy; Mazhar Ahmed</a></p>
+  		<p><a>Terms and Conditions</a><br>
+  			<a>Sitemap</a>
+  		</p>
 	</footer>
 </body>
 
