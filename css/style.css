@@ -71,24 +71,7 @@ h1 {
   color: #fff;
 }
 
-.maintable {
-    border-collapse: collapse;
-    width: 100%;
-}
 
-.maintable th, td {
-    text-align: left;
-    padding: 8px;
-}
-
-.maintable tr:nth-child(even) {
-  background-color: #db2f2f;
-  color: #fff;
-}
-.maintable tr:nth-child(odd) {
-  background-color: #000000;
-  color: #fff;
-}
 nav {
   background-color: #333;
   display: none;
@@ -245,7 +228,7 @@ td img {
   width:150px;
   height:150px;  
 }
-td:hover img { 
+ td:hover img { 
   position: absolute;
   z-index: 999;
   color: rgb(113, 157, 171);
@@ -298,7 +281,7 @@ figure {
 
 figcaption {
   box-sizing: border-box;
-  height: 4em
+  height: 4em;
   line-height: 1.2em;
   padding: .25em;
   transform: translateY(4em);
@@ -357,6 +340,7 @@ img:nth-child(3) { animation-delay: 0s; }
   .link{
     text-decoration: underline;
   }
+
 /* For Tablet size (medium size) */
 @media screen and (min-width: 750px) {
   nav a {
@@ -410,7 +394,7 @@ img:nth-child(3) { animation-delay: 0s; }
   height: 360px;
   }
 
-   #maps{
+  .maps{
   width: 45%;
   display: inline-block;
  }

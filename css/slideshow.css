@@ -19,7 +19,7 @@
 }
 
 .slide {
-  width: 80%;
+  width: 100%;
 }
 
 
@@ -31,4 +31,17 @@
 @keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
+}
+
+@media screen and (min-width: 750px) {
+  .slide {
+  width: 90%;
+}
+}
+
+
+@media screen and (min-width: 1200px) {
+  .slide {
+  width: 70%;
+}
 }

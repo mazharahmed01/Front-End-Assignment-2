@@ -2,15 +2,17 @@
 
 <html> 
 <head> 
-	<title> Formula 1 </title>
+	<title> F1 News </title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/slideshow.css">
 </head>
 
 <body>
-	<h1>F1 News</h1>
-	<a id="menu" href="#"><img src="icons/mobile-menu.png"></a>
+	<header>
+		<img src="images/logo.png" alt="F1 News Logo">
+	</header>
+	<a id="menu" href="#"><img src="icons/mobile-menu.png" alt="Menu"></a>
 	<nav id="nav-menu">
 		<a href="index.html">Home</a>
 		<a href="standings.html">Standings</a>
@@ -23,272 +25,270 @@
 	<main class="tab_container">
 		<input id="tab1" type="radio" name="tabs" checked>
     	<!-- the *label* for the radio button forms the clickable tabs -->
-    	<label for="tab1"><i class="fa"></i><span>Drivers</span></label>
+    <label for="tab1"><i class="fa"></i><span>Drivers</span></label>
 		<input id="tab2" type="radio" name="tabs">
 		<!-- the *label* for the radio button forms the clickable tabs -->
 		<label for="tab2"><i class="fa"></i><span>Constructors</span></label>
 
-    	<!- content for tab 1: HTML5 -->
+    	<!-- content for tab 1: HTML5 -->
 
-	    <section id="content1" class="tab-content">
-	      <header>
-	        <h1>Drivers</h1>
-	      </header>
-	  	      <table class="standings">
-	      	<tr>
-	      		<th>Position</th>
-	      		<th>Driver</th>
-	      		<th>Team</th>
-	      		<th>Wins</th>
-	      		<th>Points</th>
-	      	</tr>
-	      	<tr>
-	      		<td>1</td>
-	      		<td id="hamil">Lewis Hamilton <img src="images/lewis.jpg" alt="Lewis" > </td> 
-	      		<td>Mercedes</td>
-	      		<td>9</td>
-	      		<td>363</td>
-	      	</tr>
-	      	<tr>
-	      		<td>2</td>
-	      		<td>Sabastian Vettel <img src="images/vettel.jpg" alt="Vettel" > </td>
-	      		<td>Ferrari</td>
-	      		<td>5</td>
-	      		<td>317</td>
-	      	</tr>
-	      	<tr>
-	      		<td>3</td>
-	      		<td>Valterri Bottas <img src="images/bottas.jpg" alt="Bottas" > </td>
-	      		<td>Mercedes</td>
-	      		<td>3</td>
-	      		<td>305</td>
-	      	</tr>
-	      	<tr>
-	      		<td>4</td>
-	      		<td>Kimi Raikkonen<img src="images/kimi.jpg" alt="Kimi" ></td>
-	      		<td>Ferrari</td>
-	      		<td>0</td>
-	      		<td>205</td>
-	      	</tr>
-	      	<tr>
-	      		<td>5</td>
-	      		<td>Daniel Ricciardo<img src="images/daniel.jpg" alt="Ricciardo" ></td>
-	      		<td>Red Bull</td>
-	      		<td>1</td>
-	      		<td>200</td>
-	      	</tr>
-	      	<tr>
-	      		<td>6</td>
-	      		<td>Max Verstappen <img src="images/max.jpg" alt="Max" ></td>
-	      		<td>Red Bull</td>
-	      		<td>2</td>
-	      		<td>168</td>
-	      	</tr>
-	      	<tr>
-	      		<td>7</td>
-	      		<td>Sergio Perez<img src="images/perez.jpg" alt="Perex" ></td>
-	      		<td>Force India</td>
-	      		<td>0</td>
-	      		<td>100</td>
-	      	</tr>
-	      	<tr>
-	      		<td>8</td>
-	      		<td>Esteban Ocon<img src="images/ocon.jpg" alt="Ocon" ></td>
-	      		<td>Force India</td>
-	      		<td>0</td>
-	      		<td>87</td>
-	      	</tr>
-	      	<tr>
-	      		<td>9</td>
-	      		<td>Carlos Sainz Jnr<img src="images/sainz.jpg" alt="Sainz" ></td>
-	      		<td>Renault</td>
-	      		<td>0</td>
-	      		<td>54</td>
-	      	</tr>
-	      	<tr>
-	      		<td>10</td>
-	      		<td>Nico Hulkenberg<img src="images/nico.jpg" alt="Nico" ></td>
-	      		<td>Renault</td>
-	      		<td>0</td>
-	      		<td>43</td>
-	      	</tr>
-	      	<tr>
-	      		<td>11</td>
-	      		<td>Felipe Massa<img src="images/massa.jpg" alt="Massa" ></td>
-	      		<td>Williams</td>
-	      		<td>0</td>
-	      		<td>43</td>
-	      	</tr>
-	      	<tr>
-	      		<td>12</td>
-	      		<td>Lance Stroll<img src="images/stroll.jpg" alt="Stroll" ></td>
-	      		<td>Williams</td>
-	      		<td>0</td>
-	      		<td>40</td>
-	      	</tr>
-	      	<tr>
-	      		<td>13</td>
-	      		<td>Romain Grosjean<img src="images/grosjean.jpg" alt="Grosjean" ></td>
-	      		<td>Haas F1</td>
-	      		<td>0</td>
-	      		<td>28</td>
-	      	</tr>
-	      	<tr>
-	      		<td>14</td>
-	      		<td>Kevin Magnussen<img src="images/magnussen.jpg" alt="Magnussen" ></td>
-	      		<td>Haas F1</td>
-	      		<td>0</td>
-	      		<td>19</td>
-	      	</tr>
-	      	<tr>
-	      		<td>15</td>
-	      		<td>Fernando Alonso <img src="images/alonso.jpg" alt="Alonso" ></td>
-	      		<td>McLaren</td>
-	      		<td>0</td>
-	      		<td>17</td>
-	      	</tr>
-	      	<tr>
-	      		<td>16</td>
-	      		<td>Stoffel Vandoorne <img src="images/vandoorne.jpg" alt="Vandoorne" ></td>
-	      		<td>McLaren</td>
-	      		<td>0</td>
-	      		<td>13</td>
-	      	</tr>
-	      	<tr>
-	      		<td>17</td>
-	      		<td>Jolyon Palmer <img src="images/palmer.jpg" alt="Jolyon" ></td>
-	      		<td>Renault</td>
-	      		<td>0</td>
-	      		<td>8</td>
-	      	</tr>
-	      	<tr>
-	      		<td>18</td>
-	      		<td>Pascal Wehrlein<img src="images/wehrlein.jpg" alt="Wehrlein" ></td>
-	      		<td>Sauber</td>
-	      		<td>0</td>
-	      		<td>5</td>
-	      	</tr>
-	      	<tr>
-	      		<td>19</td>
-	      		<td>Daniil Kvyat <img src="images/kvyat.jpg" alt="Kvyat" ></td>
-	      		<td>Toro Rosso</td>
-	      		<td>0</td>
-	      		<td>5</td>
-	      	</tr>
-	      	<tr>
-	      		<td>20</td>
-	      		<td>Marcus Ericsson <img src="images/ericsson.jpg" alt="Ericsson" ></td>
-	      		<td>Sauber</td>
-	      		<td>0</td>
-	      		<td>0</td>
-	      	</tr>
-	      	<tr>
-	      		<td>21</td>
-	      		<td>Pierre Gasly <img src="images/gasly.jpg" alt="Gasly" ></td>
-	      		<td>Toro Rosso</td>
-	      		<td>0</td>
-	      		<td>0</td>
-	      	</tr>
-	      	<tr>
-	      		<td>22</td>
-	      		<td>Antonio Giovinazzi <img src="images/giovinazzi.jpg" alt="Giovinazzi" ></td>
-	      		<td>Haas F1</td>
-	      		<td>0</td>
-	      		<td>0</td>
-	      	</tr>
-	      	<tr>
-	      		<td>23</td>
-	      		<td>Brendon Hartley <img src="images/hartley.jpg" alt="Hartley" ></td>
-	      		<td>Toro Rosso</td>
-	      		<td>0</td>
-	      		<td>0</td>
-	      	</tr>
-	      </table>
-	    </section>
+	  <section id="content1" class="tab-content">
+	    <header>
+	      <h1>Drivers</h1>
+	    </header>
+	    <table class="standings">
+	     	<tr>
+	     		<th>Position</th>
+	     		<th>Driver</th>
+	     		<th>Team</th>
+	     		<th>Wins</th>
+	     		<th>Points</th>
+	     	</tr>
+	     	<tr>
+	     		<td>1</td>
+	     		<td>Lewis Hamilton <img src="images/lewis.jpg" alt="Lewis" > </td> 
+	     		<td>Mercedes</td>
+	     		<td>9</td>
+	     		<td>363</td>
+	     	</tr>
+	     	<tr>
+	     		<td>2</td>
+	     		<td>Sabastian Vettel <img src="images/vettel.jpg" alt="Vettel" > </td>
+	     		<td>Ferrari</td>
+	     		<td>5</td>
+	     		<td>317</td>
+	     	</tr>
+	     	<tr>
+	     		<td>3</td>
+	     		<td>Valterri Bottas <img src="images/bottas.jpg" alt="Bottas" > </td>
+	     		<td>Mercedes</td>
+	     		<td>3</td>
+	     		<td>305</td>
+	     	</tr>
+	     	<tr>
+	     		<td>4</td>
+	     		<td>Kimi Raikkonen<img src="images/kimi.jpg" alt="Kimi" ></td>
+	     		<td>Ferrari</td>
+	     		<td>0</td>
+	     		<td>205</td>
+	     	</tr>
+	     	<tr>
+	     		<td>5</td>
+	     		<td>Daniel Ricciardo<img src="images/daniel.jpg" alt="Ricciardo" ></td>
+	     		<td>Red Bull</td>
+	     		<td>1</td>
+	     		<td>200</td>
+	     	</tr>
+	     	<tr>
+	     		<td>6</td>
+	     		<td>Max Verstappen <img src="images/max.jpg" alt="Max" ></td>
+      		<td>Red Bull</td>
+      		<td>2</td>
+      		<td>168</td>
+      	</tr>
+      	<tr>
+      		<td>7</td>
+      		<td>Sergio Perez<img src="images/perez.jpg" alt="Perex" ></td>
+      		<td>Force India</td>
+      		<td>0</td>
+      		<td>100</td>
+      	</tr>
+      	<tr>
+      		<td>8</td>
+      		<td>Esteban Ocon<img src="images/ocon.jpg" alt="Ocon" ></td>
+      		<td>Force India</td>
+      		<td>0</td>
+      		<td>87</td>
+      	</tr>
+      	<tr>
+      		<td>9</td>
+      		<td>Carlos Sainz Jnr<img src="images/sainz.jpg" alt="Sainz" ></td>
+      		<td>Renault</td>
+      		<td>0</td>
+      		<td>54</td>
+      	</tr>
+      	<tr>
+      		<td>10</td>
+      		<td>Nico Hulkenberg<img src="images/nico.jpg" alt="Nico" ></td>
+      		<td>Renault</td>
+      		<td>0</td>
+      		<td>43</td>
+      	</tr>
+      	<tr>
+      		<td>11</td>
+      		<td>Felipe Massa<img src="images/massa.jpg" alt="Massa" ></td>
+      		<td>Williams</td>
+      		<td>0</td>
+      		<td>43</td>
+      	</tr>
+      	<tr>
+      		<td>12</td>
+      		<td>Lance Stroll<img src="images/stroll.jpg" alt="Stroll" ></td>
+      		<td>Williams</td>
+      		<td>0</td>
+      		<td>40</td>
+      	</tr>
+      	<tr>
+      		<td>13</td>
+      		<td>Romain Grosjean<img src="images/grosjean.jpg" alt="Grosjean" ></td>
+      		<td>Haas F1</td>
+      		<td>0</td>
+      		<td>28</td>
+      	</tr>
+      	<tr>
+      		<td>14</td>
+      		<td>Kevin Magnussen<img src="images/magnussen.jpg" alt="Magnussen" ></td>
+      		<td>Haas F1</td>
+      		<td>0</td>
+      		<td>19</td>
+      	</tr>
+      	<tr>
+      		<td>15</td>
+      		<td>Fernando Alonso <img src="images/alonso.jpg" alt="Alonso" ></td>
+      		<td>McLaren</td>
+      		<td>0</td>
+      		<td>17</td>
+      	</tr>
+      	<tr>
+      		<td>16</td>
+      		<td>Stoffel Vandoorne <img src="images/vandoorne.jpg" alt="Vandoorne" ></td>
+      		<td>McLaren</td>
+      		<td>0</td>
+      		<td>13</td>
+      	</tr>
+      	<tr>
+      		<td>17</td>
+      		<td>Jolyon Palmer <img src="images/palmer.jpg" alt="Jolyon" ></td>
+      		<td>Renault</td>
+      		<td>0</td>
+      		<td>8</td>
+      	</tr>
+      	<tr>
+      		<td>18</td>
+      		<td>Pascal Wehrlein<img src="images/wehrlein.jpg" alt="Wehrlein" ></td>
+      		<td>Sauber</td>
+      		<td>0</td>
+      		<td>5</td>
+      	</tr>
+      	<tr>
+     		<td>19</td>
+      		<td>Daniil Kvyat <img src="images/kvyat.jpg" alt="Kvyat" ></td>
+      		<td>Toro Rosso</td>
+      		<td>0</td>
+      		<td>5</td>
+      	</tr>
+      	<tr>
+      		<td>20</td>
+      		<td>Marcus Ericsson <img src="images/ericsson.jpg" alt="Ericsson" ></td>
+      		<td>Sauber</td>
+      		<td>0</td>
+      		<td>0</td>
+      	</tr>
+      	<tr>
+      		<td>21</td>
+      		<td>Pierre Gasly <img src="images/gasly.jpg" alt="Gasly" ></td>
+      		<td>Toro Rosso</td>
+      		<td>0</td>
+      		<td>0</td>
+      	</tr>
+      	<tr>
+      		<td>22</td>
+      		<td>Antonio Giovinazzi <img src="images/giovinazzi.jpg" alt="Giovinazzi" ></td>
+      		<td>Haas F1</td>
+      		<td>0</td>
+      		<td>0</td>
+      	</tr>
+      	<tr>
+      		<td>23</td>
+      		<td>Brendon Hartley <img src="images/hartley.jpg" alt="Hartley" ></td>
+      		<td>Toro Rosso</td>
+      		<td>0</td>
+      		<td>0</td>
+      	</tr>
+      </table>
+    </section>
 
-	    <section id="content2" class="tab-content">
-	      <header>
-	        <h1>Constructors</h1>
-	      </header>
-	      <table class="standings">
-	      	<tr>
-	      		<th>Position</th>
-	      		<th>Team</th>
-	      		<th>Points</th>
-	      	</tr>
-	      	<tr>
-	      		<td>1</td>
-	      		<td>Mercedes <img class="teams" src="images/mercedesf1.png" alt="Mercedes" ></td>
-	      		<td>668</td>
-	      	</tr>
-	      	<tr>
-	      		<td>2</td>
-	      		<td>Ferrari <img class="teams" src="images/ferrarif1.png" alt="Ferrari" ></td>
-	      		<td>522</td>
-	      	</tr>
-	      	<tr>
-	      		<td>3</td>
-	      		<td>Red Bull <img class="teams" src="images/redbullf1.png" alt="Red Bull" ></td>
-	      		<td>368</td>
-	      	</tr>
-	      	<tr>
-	      		<td>4</td>
-	      		<td>Force India <img class="teams" src="images/forceindiaf1.png" alt="Force India" ></td>
-	      		<td>187</td>
-	      	</tr>
-	      	<tr>
-	      		<td>5</td>
-	      		<td>Williams <img class="teams" src="images/williamsf1.png" alt="Williams" ></td>
-	      		<td>83</td>
-	      	</tr>
-	      	<tr>
-	      		<td>6</td>
-	      		<td>Renault <img class="teams" src="images/renaultf1.png" alt="Renault" ></td>
-	      		<td>57</td>
-	      	</tr>
-	      	<tr>
-	      		<td>7</td>
-	      		<td>Toro Rosso <img class="teams" src="images/torrorossof1.png" alt="Toro Rosso" ></td>
-	      		<td>53</td>
-	      	</tr>
-	      	<tr>
-	      		<td>8</td>
-	      		<td>Haas F1 <img class="teams" src="images/haasf1.png" alt="Haas" ></td>
-	      		<td>47</td>
-	      	</tr>
-	      	<tr>
-	      		<td>9</td>
-	      		<td>McLaren <img class="teams" src="images/mclarenf1.png" alt="McLaren" ></td>
-	      		<td>30</td>
-	      	</tr>
-	      	<tr>
-	      		<td>10</td>
-	      		<td>Sauber <img class="teams" src="images/sauberf1.png" alt="Sauber" ></td>
-	      		<td>5</td>
-	      	</tr>
+    <section id="content2" class="tab-content">
+      <header>
+        <h1>Constructors</h1>
+      </header>
+      <table class="standings">
+      	<tr>
+      		<th>Position</th>
+      		<th>Team</th>
+      		<th>Points</th>
+      	</tr>
+      	<tr>
+      		<td>1</td>
+      		<td>Mercedes <img class="teams" src="images/mercedesf1.png" alt="Mercedes" ></td>
+      		<td>668</td>
+      	</tr>
+      	<tr>
+      		<td>2</td>
+      		<td>Ferrari <img class="teams" src="images/ferrarif1.png" alt="Ferrari" ></td>
+      		<td>522</td>
+      	</tr>
+      	<tr>
+      		<td>3</td>
+      		<td>Red Bull <img class="teams" src="images/redbullf1.png" alt="Red Bull" ></td>
+      		<td>368</td>
+      	</tr>
+      	<tr>
+      		<td>4</td>
+      		<td>Force India <img class="teams" src="images/forceindiaf1.png" alt="Force India" ></td>
+      		<td>187</td>
+      	</tr>
+      	<tr>
+      		<td>5</td>
+      		<td>Williams <img class="teams" src="images/williamsf1.png" alt="Williams" ></td>
+      		<td>83</td>
+      	</tr>
+      	<tr>
+      		<td>6</td>
+      		<td>Renault <img class="teams" src="images/renaultf1.png" alt="Renault" ></td>
+      		<td>57</td>
+      	</tr>
+      	<tr>
+      		<td>7</td>
+      		<td>Toro Rosso <img class="teams" src="images/torrorossof1.png" alt="Toro Rosso" ></td>
+      		<td>53</td>
+      	</tr>
+      	<tr>
+      		<td>8</td>
+      		<td>Haas F1 <img class="teams" src="images/haasf1.png" alt="Haas" ></td>
+      		<td>47</td>
+      	</tr>
+      	<tr>
+      		<td>9</td>
+      		<td>McLaren <img class="teams" src="images/mclarenf1.png" alt="McLaren" ></td>
+      		<td>30</td>
+      	</tr>
+      	<tr>
+      		<td>10</td>
+      		<td>Sauber <img class="teams" src="images/sauberf1.png" alt="Sauber" ></td>
+      		<td>5</td>
+      	</tr>
 	      	
-	      </table>
-	    </section>
-
+      </table>
+    </section>
 	</main>
 	<footer id="footer">
   		
-  		<p>Follow us on Social Media</p>
-  		<p><a href="https://twitter.com/search-home?lang=en-gb"><img class="social" src="icons/twitter.png" alt="Twitter Icon" ></a>
-  		<a href="https://en-gb.facebook.com/"><img class="social" src="icons/fb.png" alt="Facebook Icon" ></a>
-  		<a href="https://www.whatsapp.com/"><img class="social" src="icons/whatsapp.png" alt="Whatsapp Icon" ></a>
+  	<p>Follow us on Social Media</p>
+  	<p>
+ 			<a href="https://twitter.com/search-home?lang=en-gb"><img class="social" src="icons/twitter.png" alt="Twitter Icon" ></a>
+ 			<a href="https://en-gb.facebook.com/"><img class="social" src="icons/fb.png" alt="Facebook Icon" ></a>  			<a href="https://www.whatsapp.com/"><img class="social" src="icons/whatsapp.png" alt="Whatsapp Icon" ></a>
   		<a href="https://www.snapchat.com/l/en-gb/"><img class="social" src="icons/snapchat.png" alt="Snapchat Icon" ></a>
   		<a href="https://plus.google.com/discover"><img class="social" src="icons/google.png" alt="Google+ Icon" ></a>
   		<a href="https://uk.linkedin.com/"><img class="social" src="icons/linkedin.png" alt="Linkedin Icon" ></a>
   		<a href="https://www.instagram.com/?hl=en"><img class="social" src="icons/insta.png" alt="Instagram Icon" ></a>
-  		<a href="https://www.youtube.co.uk/?hl=en"><img class="social" src="icons/youtube.png" alt="YouTube Icon" ></a></p>
-  		<p><a>Copyright 2017 &copy; Mazhar Ahmed</a></p>
-  		<p><a>Terms and Conditions</a><br>
-  			<a>Sitemap</a>
-  		</p>
+  		<a href="https://www.youtube.co.uk/?hl=en"><img class="social" src="icons/youtube.png" alt="YouTube Icon" ></a>
+  	</p>
+  	<p><a>Copyright 2017 &copy; Mazhar Ahmed</a></p>
+  	<p>
+  		<a>Terms and Conditions</a><br>
+  		<a href="sitemap.html">Sitemap</a>
+  	</p>
 	</footer>
-
 </body>
-
-
 </html>
