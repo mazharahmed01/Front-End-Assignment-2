@@ -156,13 +156,13 @@ a {
 }
 
 .mercedes {
-    border-collapse: collapse;
-    width: 100%;
+  border-collapse: collapse;
+  width: 100%;
 }
 
 .mercedes th, td {
-    text-align: left;
-    padding: 8px;
+  text-align: left;
+  padding: 8px;
 
 }
 
@@ -177,13 +177,13 @@ a {
 
 
 .ferrari {
-    border-collapse: collapse;
-    width: 100%;
+  border-collapse: collapse;
+  width: 100%;
 }
 
 .ferrari th, td {
-    text-align: left;
-    padding: 8px;
+  text-align: left;
+  padding: 8px;
 }
 
 .ferrari tr:nth-child(even) {
@@ -196,13 +196,13 @@ a {
 }
 
 .redbull {
-    border-collapse: collapse;
-    width: 100%;
+  border-collapse: collapse;
+  width: 100%;
 }
 
 .redbull th, td {
-    text-align: left;
-    padding: 8px;
+  text-align: left;
+  padding: 8px;
 }
 
 .redbull tr:nth-child(even) {
@@ -216,13 +216,13 @@ a {
 
 
 .forceindia {
-    border-collapse: collapse;
-    width: 100%;
+  border-collapse: collapse;
+  width: 100%;
 }
 
 .forceindia th, td {
-    text-align: left;
-    padding: 8px;
+  text-align: left;
+  padding: 8px;
 }
 
 .forceindia tr:nth-child(even) {
@@ -236,13 +236,13 @@ a {
 
 
 .reno {
-    border-collapse: collapse;
-    width: 100%;
+  border-collapse: collapse;
+  width: 100%;
 }
 
 .reno th, td {
-    text-align: left;
-    padding: 8px;
+  text-align: left;
+  padding: 8px;
 }
 
 .reno tr:nth-child(even) {
@@ -255,13 +255,13 @@ a {
 }
 
 .williams {
-    border-collapse: collapse;
-    width: 100%;
+  border-collapse: collapse;
+  width: 100%;
 }
 
 .williams th, td {
-    text-align: left;
-    padding: 8px;
+  text-align: left;
+  padding: 8px;
 }
 
 .williams tr:nth-child(even) {
@@ -274,13 +274,13 @@ a {
 }
 
 .haas {
-    border-collapse: collapse;
-    width: 100%;
+  border-collapse: collapse;
+  width: 100%;
 }
 
 .haas th, td {
-    text-align: left;
-    padding: 8px;
+  text-align: left;
+  padding: 8px;
 }
 
 .haas tr:nth-child(even) {
@@ -293,13 +293,13 @@ a {
 }
 
 .mclaren {
-    border-collapse: collapse;
-    width: 100%;
+  border-collapse: collapse;
+  width: 100%;
 }
 
 .mclaren th, td {
-    text-align: left;
-    padding: 8px;
+  text-align: left;
+  padding: 8px;
 }
 
 .mclaren tr:nth-child(even) {
@@ -312,13 +312,13 @@ a {
 }
 
 .sauber {
-    border-collapse: collapse;
-    width: 100%;
+  border-collapse: collapse;
+  width: 100%;
 }
 
 .sauber th, td {
-    text-align: left;
-    padding: 8px;
+  text-align: left;
+  padding: 8px;
 }
 
 .sauber tr:nth-child(even) {
@@ -331,13 +331,13 @@ a {
 }
 
 .tororosso {
-    border-collapse: collapse;
-    width: 100%;
+  border-collapse: collapse;
+  width: 100%;
 }
 
 .tororosso th, td {
-    text-align: left;
-    padding: 8px;
+  text-align: left;
+  padding: 8px;
 }
 
 .tororosso tr:nth-child(even) {
@@ -368,7 +368,6 @@ a {
   .modal-content {
     width: 80%;
   }
-
  
 }
 

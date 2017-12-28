@@ -7,7 +7,7 @@
 }
 
 .mySlides {
-    display: none;
+  display: none;
 }
 
 /* Fading animation */
@@ -35,13 +35,13 @@
 
 @media screen and (min-width: 750px) {
   .slide {
-  width: 90%;
-}
+    width: 90%;
+  }
 }
 
 
 @media screen and (min-width: 1200px) {
   .slide {
-  width: 70%;
-}
+    width: 70%;
+  }
 }
