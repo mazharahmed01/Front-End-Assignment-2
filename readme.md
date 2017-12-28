@@ -7,7 +7,19 @@ The website is made up of a series of pages - how? nav bar takes to different pa
 upload image to show its series of pages 
 
 # Wireframes
+**Desktops**
+![](wireframes/desk-home.jpg) 
+![](wireframes/desk-standings.jpg) 
+![](wireframes/desk-racecal.jpg) 
+![](wireframes/desk-teams.jpg)
+![](wireframes/desk-drivers.jpg)  
 
+**Mobile**
+![](wireframes/mob-home.jpg) 
+![](wireframes/mob-standing.jpg) 
+![](wireframes/mob-racecal.jpg) 
+![](wireframes/mob-teams.jpg)
+![](wireframes/mob-drivers.jpg)  
 
 # Issues 
 
@@ -29,3 +41,5 @@ https://stackoverflow.com/questions/12627443/jquery-click-vs-onclick/12627478#12
 http://cssmenumaker.com/blog/stylish-css-tables-tutorial/
 https://codepen.io/mastastealth/pen/BHJLb
 http://www.color-hex.com/color/dfdfdf
+https://daveeveritt.github.io/flexbox-cheatsheet/
+Week 4 Lab 

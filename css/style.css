@@ -217,18 +217,18 @@ label:last-child {
   border-radius: 0 5px 0 0; 
 }
 
-td .teams {
+ td .teams {
   display:none;
   width:250px;
   height:150px;  
 }
 
-td img { 
+ td img { 
   display:none;
   width:150px;
   height:150px;  
 }
- td:hover img { 
+  td:hover img { 
   position: absolute;
   z-index: 999;
   color: rgb(113, 157, 171);
