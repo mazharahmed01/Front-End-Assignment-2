@@ -5,7 +5,7 @@ F1 news is a wesbite which provides details on the current standings of drivers/
 The website is made up of a series of pages as each page has its one page eg. homepage is index.html, Drivers is drivers.html and so on. The Nav bar also needs to reload as each page is loaded. 
 
 Below is a screenshot of the navigation bar which shows each page is seprate.
-![](images/nav.png)
+![](images/nav.jpg)
 
 
 # Wireframes
@@ -47,26 +47,37 @@ User testing on seperate document called testing.doc
 
 # References
 Used for timeline 
-https://webdesign.tutsplus.com/tutorials/building-a-vertical-timeline-with-css-and-a-touch-of-javascript--cms-26528
+https://webdesign.tutsplus.com/tutorials/building-a-vertical-timeline-with-css-and-a-touch-of-javascript--cms-
+
 Used for image styling and modal image
 https://www.w3schools.com/css/css3_images.asp
+
 Used for help for multiple modal images
 https://stackoverflow.com/questions/42526143/how-to-open-a-modal-image-for-multiple-images
+
 Used for event listener instead of onclick
 https://stackoverflow.com/questions/12627443/jquery-click-vs-onclick/12627478#12627478
+
 CSS for table used in standings
 http://cssmenumaker.com/blog/stylish-css-tables-tutorial/
+
 CSS for table used in standings
 https://codepen.io/mastastealth/pen/BHJLb
+
 Used to get hex code for different colours
 http://www.color-hex.com/color/dfdfdf
+
 used for flexbox on home page. 
 https://daveeveritt.github.io/flexbox-cheatsheet/
+
 Used for mobile responsive 
-Week 4 Lab for mobile responsive 
+Week 4 Lab for mobile responsive
+
 Used for slideshow on homepage for teams
 Week 7 Slide show
+
 Used for slide show on homepage
 https://www.w3schools.com/w3css/w3css_slideshow.asp
+
 Used for Google Maps API
 https://developers.google.com/maps/
