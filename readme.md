@@ -5,7 +5,7 @@ F1 news is a wesbite which provides details on the current standings of drivers/
 The website is made up of a series of pages as each page has its one page eg. homepage is index.html, Drivers is drivers.html and so on. The Nav bar also needs to reload as each page is loaded. 
 
 Below is a screenshot of the navigation bar which shows each page is seprate.
-![](images/nav.jpg)
+![](images/nav.png)
 
 
 # Wireframes
@@ -44,6 +44,20 @@ HTML, CSS errors are shown on a seperate errors document.
 
 # User Testing 
 User testing on seperate document called testing.doc
+
+
+# Notes
+There are 0 HTML Errors and no console Javascript issues.
+There is 1 CSS error which has got to do with td:hover. I've looked online and couldn't find a fix for this however the feature is working as expected. I've tried to give the td a class and then call it in the css however this did not work for me.
+
+On the Standings Page if you hover over the driver or teams (in constructors page only) a image of the driver and team logo appear.
+
+On the drivers timeline if you click on the image of the driver a modal image appears which can then be closed. 
+
+The timeline can be a little dodgy if the window is resized too small to see the responsiveness of the timeline its best to use the responsive brower setting in inspect. I've tested the timeline on tablets and mobile and it works fine for some reason its a little weird on the browser if not resized properly. I tried to fix this but ran out of time in the end.
+
+
+
 
 # References
 Used for timeline 
