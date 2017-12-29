@@ -10,9 +10,11 @@
 </head>
 
 <body>
+  <!-- Logo in header tag so it doesn't go next to the menu button on mobile and table  -->
   <header>
 	<img src="images/logo.png" alt="F1 News Logo">
   </header>
+  <!--Navigation menu-->
 	<a id="menu" href="#"><img src="icons/mobile-menu.png" alt="Menu"></a>
 	<nav id="nav-menu">
 		<a href="index.html">Home</a>
@@ -21,6 +23,7 @@
 		<a href="teams.html">Teams</a>
 		<a href="drivers.html">Drivers</a>
 	</nav>
+  <!--calling the javascript for the menu-->
 	<script src="js/menu.js"></script>
 
 	<section class="intro">
@@ -28,11 +31,12 @@
     	<h1>Drivers</h1>
   	</div>
 	</section>
-
+  <!--Timeline starts here uses a unordered list -->
 	<section class="timeline">
   	<ul>
       <li>
    			<div class="listdirver">
+          <!-- Shows a image of the diver in the table -->
           <img  class="driverimage" src="images/lewis.jpg"  alt="Lewis Hamilton">
           <div>
      				<a>Lewis Hamilton</a>
@@ -1032,18 +1036,21 @@
         </div>
       </li>
     </ul>     
-          <!-- The Modal -->
+          <!--Used for the Modal only needs to be listed once and not for each driver image -->
     <div id="myModal" class="modal">
       <span class="close">×</span>
       <img src ="images/no-image.png" class="modal-content" id="img01" alt="driver">
       <div id="caption"></div>
     </div> 
   </section>
+  <!--calling the modal image javascript and timeline javascript -->
   <script src="js/images.js"></script>
   <script src="js/timeline.js"></script>
+  <!-- Footer starts here-->
 	<footer id="footer">
     <p>Follow us on Social Media</p>
     <p>
+      <!-- image icons each linked to respective social media sites-->
       <a href="https://twitter.com/search-home?lang=en-gb"><img class="social" src="icons/twitter.png" alt="Twitter Icon" ></a>
       <a href="https://en-gb.facebook.com/"><img class="social" src="icons/fb.png" alt="Facebook Icon" ></a>
       <a href="https://www.whatsapp.com/"><img class="social" src="icons/whatsapp.png" alt="Whatsapp Icon" ></a>
@@ -1056,6 +1063,7 @@
     <p><a>Copyright 2017 &copy; Mazhar Ahmed</a></p>
     <p>
       <a>Terms and Conditions</a><br>
+      <!-- Links to the sitemap -->
       <a href="sitemap.html">Sitemap</a>
     </p>
   </footer>

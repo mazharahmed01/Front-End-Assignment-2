@@ -1,3 +1,8 @@
+/*The following code was all written in desktop on the website where i found the 
+timeline example. I had to rearrange the code so it was mobile first and so it used
+min-width rather then max-width*/
+
+/*Used to style the time line bar */
 .timeline ul li::after {
   content: '';
   position: absolute;
@@ -154,6 +159,8 @@ a {
   text-decoration: none;
   cursor: pointer;
 }
+/*The following css is used to style the tables in each timeline
+I've broken them down so for each driver the table has the team colours */
 
 .mercedes {
   border-collapse: collapse;

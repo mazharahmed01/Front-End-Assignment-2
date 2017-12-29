@@ -9,9 +9,11 @@
 </head>
 
 <body>
+  <!--Logo in header tag so it doesnt conflict when going in mobile or tablet view-->
 	<header>
 		<img src="images/logo.png" alt="F1 News Logo">
 	</header>
+  <!--Navigation bar Week 4 code used for this-->
 	<a id="menu" href="#"><img src="icons/mobile-menu.png" alt="Menu"></a>
 	<nav id="nav-menu">
 		<a href="index.html">Home</a>
@@ -20,9 +22,11 @@
 		<a href="teams.html">Teams</a>
 		<a href="drivers.html">Drivers</a>
 	</nav>
+  <!--Javacript link for the menu bar-->
 	<script src="js/menu.js"></script>
-	
+	<!-- week 5 code used for different pages on the same page using buttons to toggle through this -->
 	<main class="tab_container">
+    <!-- radio button used to select which page user would like to view -->
 		<input id="tab1" type="radio" name="tabs" checked>
     	<!-- the *label* for the radio button forms the clickable tabs -->
     <label for="tab1"><i class="fa"></i><span>Drivers</span></label>
@@ -30,7 +34,7 @@
 		<!-- the *label* for the radio button forms the clickable tabs -->
 		<label for="tab2"><i class="fa"></i><span>Constructors</span></label>
 
-    	<!-- content for tab 1: HTML5 -->
+    <!-- content for tab 1: Drivers page -->
 
 	  <section id="content1" class="tab-content">
 	    <header>
@@ -46,6 +50,7 @@
 	     	</tr>
 	     	<tr>
 	     		<td>1</td>
+          <!-- when you hover of the drivers name for all drivers the image shows on a pop up box -->
 	     		<td>Lewis Hamilton <img src="images/lewis.jpg" alt="Lewis" > </td> 
 	     		<td>Mercedes</td>
 	     		<td>9</td>
@@ -207,7 +212,7 @@
       	</tr>
       </table>
     </section>
-
+    <!-- content for drivers championship -->
     <section id="content2" class="tab-content">
       <header>
         <h1>Constructors</h1>
@@ -220,6 +225,7 @@
       	</tr>
       	<tr>
       		<td>1</td>
+          <!-- for all teams when the user hovers over the team the logo of the team shows -->
       		<td>Mercedes <img class="teams" src="images/mercedesf1.png" alt="Mercedes" ></td>
       		<td>668</td>
       	</tr>
@@ -287,6 +293,7 @@
   	<p><a>Copyright 2017 &copy; Mazhar Ahmed</a></p>
   	<p>
   		<a>Terms and Conditions</a><br>
+      <!-- sitemap included -->
   		<a href="sitemap.html">Sitemap</a>
   	</p>
 	</footer>

@@ -15,7 +15,7 @@ var items = document.querySelectorAll(".timeline li");
  
 function callbackFunc() {
   for (var i = 0; i < items.length; i++) {
-    if (isElementInViewport(items[i])) {
+    if (isElementInViewport(items[i])) { //if the part of the slideshow is in view it'll show it
       items[i].classList.add("in-view");
     }
   }

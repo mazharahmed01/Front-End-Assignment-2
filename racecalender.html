@@ -9,6 +9,7 @@
 </head>
 
 <body>
+	<!--Logo in header tag so it doesnt conflict when going in mobile or tablet view-->
 	<header>
 		<img src="images/logo.png" alt="F1 News Logo">
 	</header>
@@ -21,11 +22,12 @@
 		<a href="drivers.html">Drivers</a>
 	</nav>
 	<script src="js/menu.js"></script>
-
+	<!--each section has the name of the grandprix, the round number, date of event and the location in google maps -->
 	<section class="maps">
 		<h1>Australian Grand Prix</h1>
 		<h2>Round 1</h2>
 		<a>Melbourne, 23-25 March</a>
+		<!--Javascript brings in the map and css used to style it-->
 		<div id="australiaMap" class="map"></div>
 	</section>
 	<section class="maps">
@@ -149,28 +151,29 @@
 		<div id="abuDhabiMap" class="map"></div>
 	</section>
 
-
+	<!-- links to the maps javascript file -->
 	<script src="js/maps.js"></script>
+	<!-- google maps api including api key -->
   <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkXVrNmcea7f4VJO3iodaScn7tYouF8ec&callback=initMap"></script>
-
+  <!-- same footer throughout the site -->
   <footer id="footer">
   		
-  <p>Follow us on Social Media</p>
-  <p>
-  	<a href="https://twitter.com/search-home?lang=en-gb"><img class="social" src="icons/twitter.png" alt="Twitter Icon" ></a>
-  	<a href="https://en-gb.facebook.com/"><img class="social" src="icons/fb.png" alt="Facebook Icon" ></a>
-  	<a href="https://www.whatsapp.com/"><img class="social" src="icons/whatsapp.png" alt="Whatsapp Icon" ></a>
-  	<a href="https://www.snapchat.com/l/en-gb/"><img class="social" src="icons/snapchat.png" alt="Snapchat Icon" ></a>
-  	<a href="https://plus.google.com/discover"><img class="social" src="icons/google.png" alt="Google+ Icon" ></a>
-  	<a href="https://uk.linkedin.com/"><img class="social" src="icons/linkedin.png" alt="Linkedin Icon" ></a>
-  	<a href="https://www.instagram.com/?hl=en"><img class="social" src="icons/insta.png" alt="Instagram Icon" ></a>
-  	<a href="https://www.youtube.co.uk/?hl=en"><img class="social" src="icons/youtube.png" alt="YouTube Icon" ></a>
-  </p>
-  <p><a>Copyright 2017 &copy; Mazhar Ahmed</a></p>
-  <p>
-  	<a>Terms and Conditions</a><br>
-  	<a href="sitemap.html">Sitemap</a>
-  </p>
+	  <p>Follow us on Social Media</p>
+	  <p>
+		 	<a href="https://twitter.com/search-home?lang=en-gb"><img class="social" src="icons/twitter.png" alt="Twitter Icon" ></a>
+		 	<a href="https://en-gb.facebook.com/"><img class="social" src="icons/fb.png" alt="Facebook Icon" ></a>
+		 	<a href="https://www.whatsapp.com/"><img class="social" src="icons/whatsapp.png" alt="Whatsapp Icon" ></a>
+		 	<a href="https://www.snapchat.com/l/en-gb/"><img class="social" src="icons/snapchat.png" alt="Snapchat Icon" ></a>
+		 	<a href="https://plus.google.com/discover"><img class="social" src="icons/google.png" alt="Google+ Icon" ></a>
+		 	<a href="https://uk.linkedin.com/"><img class="social" src="icons/linkedin.png" alt="Linkedin Icon" ></a>
+		 	<a href="https://www.instagram.com/?hl=en"><img class="social" src="icons/insta.png" alt="Instagram Icon" ></a>
+		 	<a href="https://www.youtube.co.uk/?hl=en"><img class="social" src="icons/youtube.png" alt="YouTube Icon" ></a>
+	  </p>
+	  <p><a>Copyright 2017 &copy; Mazhar Ahmed</a></p>
+	  <p>
+	  	<a>Terms and Conditions</a><br>
+	  	<a href="sitemap.html">Sitemap</a>
+	  </p>
 	</footer>
 </body>
 </html>

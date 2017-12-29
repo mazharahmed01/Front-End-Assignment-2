@@ -91,6 +91,9 @@ Week 4 Lab for mobile responsive
 Used for slideshow on homepage for teams
 Week 7 Slide show
 
+Used for single page 
+Week 5 
+
 Used for slide show on homepage
 https://www.w3schools.com/w3css/w3css_slideshow.asp
 

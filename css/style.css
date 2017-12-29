@@ -3,24 +3,28 @@
 body {
   margin:0;
   padding:0;
-  background: #FFF;
-  text-align: center;
+  background: #FFF; /*setting the background to white*/
+  text-align: center; /*centering all the content*/
 }
 
+/*styling the mobile menu*/
 #menu{
   padding: 1em;
   background: #fff;
   display:inline-block;
 }
-
+/*shows menu option when menu is open*/
 .show-menu {
   display: block;
 }
 
+/*styling the text font and size*/
 p,td,label,figcaption{
   font-size: 16px;
   font-family: Arial;
 }
+
+/*styling the text and font as well as applying colour*/
 a{
   color: #000;
   text-decoration: none;
@@ -28,14 +32,12 @@ a{
   font-family: Arial;
 }
 
-h1 {
+/*styling the header*/
+h1,h2 {
   font-family: Arial Black;
 }
 
-h2 {
-  font-family: Arial Black;
-}
-
+/*styling the teams page*/
 .teams {
   position: relative;
   display: inline-block;
@@ -45,6 +47,8 @@ h2 {
 .teams img{
   display: block;
 }
+/*hide the first image when user hovers on the first image to
+the second image*/
 .teams .img-top {
   display: none;
   position: absolute;
@@ -52,17 +56,16 @@ h2 {
   left: 0;
   z-index: 99;
 }
-
+/*shows image in the same position as original image*/
 .teams:hover .img-top{
   display: inline-block;
 }
 
+/*styling the maps*/
 .map {
-
   height: 400px;
   width: 80%;
   margin: auto;
-
 } 
 
 #homepage {
@@ -76,20 +79,22 @@ h2 {
   text-align: center;
   color:#fff;
 }
-
+/*making the a (text) tag white*/
 #footer a {
   color: #fff;
 }
 
+/*styling the menu bar*/
 nav {
   background-color: #333;
   display: none;
   list-style: none;
 }
+/*when hovering over a image it highlights it with a gray*/
 nav a:hover {
   background: #777;
 }
-
+/*displays the menu in blocks and centered.*/
 nav a {
   display: block;
   color: white;
@@ -99,6 +104,8 @@ nav a {
   font-family: Century Gothic;
 }
 
+/*used to display the main new content of the site
+for the mobile view it lists it in one block*/
 
 .newscontainer{
   display: inline-block;
@@ -109,7 +116,8 @@ nav a {
   width: 90%;
   background-color: #f1f1f1;
 }
-
+/*used for standings to toggle between drivers and 
+constructors*/
 main > input,
 .tab-content {
   display: none;
@@ -175,7 +183,7 @@ label:last-child {
     opacity: 1;
   }
 }
-
+/*used to style the standings table*/
 .standings{
   color: #333;
   font-family: Helvetica, Arial, sans-serif;
@@ -231,12 +239,14 @@ label:last-child {
   width:250px;
   height:150px;  
 }
-
+/*hides the image so its only shown when hovered over*/
  td img { 
   display:none;
   width:150px;
   height:150px;  
 }
+/*when hovering over table where theres a image 
+the image shows*/
   td:hover img { 
   position: absolute;
   z-index: 999;
@@ -308,7 +318,8 @@ figure:hover figcaption {
   opacity: .78;
 }
 
-
+/*slide show used for the teams slide on the homepage 
+This is from week 7 slideshow lab session*/
 .slideshow {
   text-align: left;
   width: 100%; /* altering this breaks the centering??? */
@@ -336,8 +347,7 @@ figure:hover figcaption {
     opacity: 0;
   }
 }
-
-
+/*4 seconds per image*/
 img:nth-child(1) { animation-delay: 8s; }
 img:nth-child(2) { animation-delay: 4s; }
 img:nth-child(3) { animation-delay: 0s; }
@@ -345,31 +355,31 @@ img:nth-child(3) { animation-delay: 0s; }
  .standings{
     height: 200px;
   }
-
+  /*underlines the link to show its a like*/
   .link{
     text-decoration: underline;
   }
 
 /* For Tablet size (medium size) */
 @media screen and (min-width: 750px) {
+  /*splits the menu in to two sections so theres
+   items on the left and right*/
   nav a {
     width: 44%;
     display: inline-block;
   }
 
-  .newscontainer{
-    
-    width: 45%;
-  }
-
+  /*slide show height is increased to fill so space*/
   .slideshow {
     height: 240px;
   }
+  /* two new constainers are shown rather then the
+  one for the mobile view*/
   .newscontainer{
     display: inline-table;
     flex-direction: row;
     height: 380px;
-    width: 48%;
+    width: 45%;
   }
 
 }
@@ -385,24 +395,28 @@ img:nth-child(3) { animation-delay: 0s; }
     line-height: 3em;
     width: 13%;
   }
+  /*hides the menu button as its not requried for the 
+  desktop view*/
   #menu {
     display: none;
   }
 
- 
   .teams {
     width: 25%;
   }
-
+  /* three new constainers are shown rather then the
+  two for the mobile view*/
  .newscontainer{
     width: 33%;
     height: 360px;
   }
-
+  /*shows two maps side to side rather then one that
+  shown on tablet and mobile view*/
   .maps{
   width: 45%;
   display: inline-block;
   }
+  /*increases the text size for the desktop view*/
   .headline span{ 
     font: bold 24px/45px Helvetica, Sans-Serif; 
   }

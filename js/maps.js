@@ -2,6 +2,7 @@
 /*java code for responsiveness*/
 (function(){
 
+  //for each round a map canvas is set up
   window.initMap = function initMap() {
     var mapCanvas1 = document.getElementById("australiaMap");
     var mapCanvas2 = document.getElementById("bahrainMap");
@@ -25,7 +26,8 @@
     var mapCanvas20 = document.getElementById("brazilianMap");
     var mapCanvas21 = document.getElementById("abuDhabiMap");
 
-
+    // for each map the location is set 
+    //I used googled to search each grandprix and then got the geological location
     var mapAustralia = new google.maps.LatLng(-37.849722, 144.968333);
     var mapBahrain = new google.maps.LatLng(26.0325, 50.510556);
     var mapChinese = new google.maps.LatLng(31.338889,121.219722);
@@ -48,7 +50,7 @@
     var mapBrazilian = new google.maps.LatLng(-23.701111, -46.697222);
     var mapAbuDhabi = new google.maps.LatLng(24.467222, 54.603056);
     
-
+    //For each map I've centred the content and set the zoom to 15
     var mapSize1 = {
         center: mapAustralia,
         zoom: 15
@@ -134,7 +136,8 @@
         zoom: 15
     };
 
-
+    //making map include the map canvas and centering the map and appying a
+    // zoom of 15 
     var map1 = new google.maps.Map(mapCanvas1, mapSize1);
     var map2 = new google.maps.Map(mapCanvas2, mapSize2);
     var map3 = new google.maps.Map(mapCanvas3, mapSize3);
@@ -157,7 +160,8 @@
     var map20 = new google.maps.Map(mapCanvas20, mapSize20);
     var map21 = new google.maps.Map(mapCanvas21, mapSize21);
   
-
+    //adding a map marker to each map which points out the location.
+    //the marking is also animated so it bounces on the spot
     var marker1 = new google.maps.Marker({
       position: mapAustralia,
       animation: google.maps.Animation.BOUNCE
@@ -242,7 +246,7 @@
       position: mapAbuDhabi,
       animation: google.maps.Animation.BOUNCE
     });
-
+    //adding the marker to the map item.
     marker1.setMap(map1);
     marker2.setMap(map2);
     marker3.setMap(map3);
@@ -264,8 +268,6 @@
     marker19.setMap(map19);
     marker20.setMap(map20);
     marker21.setMap(map21);
-
-
   }
 
 })();
