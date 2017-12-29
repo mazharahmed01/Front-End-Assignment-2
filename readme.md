@@ -35,9 +35,10 @@ Drivers
 
 # Issues 
 
-**Timeline not mobile first** - 
+**Timeline not mobile first -** 
 The original timeline css code was desktop first so I had to rearranage it so it's mobile first. for this I needed to understand what each css code was doing in order to rearrange it to be mobile first. I did this by trial and error and trying to understand what each bit of the css was doing.
-**Modal image** - 
+
+**Modal image -** 
 The W3Schools website shows how to do the modal image however it only works for one I tried to change the javascript to use different id's on the html and css however this only allowed for multiple images to load but didnt allow me to close the modal image. I used a forum (stackoverflow) which recomended using a event listener this allowed me to open multiple images and close them.
 
 HTML, CSS errors are shown on a seperate errors document.
