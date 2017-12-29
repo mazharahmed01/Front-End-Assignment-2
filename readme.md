@@ -5,8 +5,7 @@ F1 news is a wesbite which provides details on the current standings of drivers/
 The website is made up of a series of pages as each page has its one page eg. homepage is index.html, Drivers is drivers.html and so on. The Nav bar also needs to reload as each page is loaded. 
 
 Below is a screenshot of the navigation bar which shows each page is seprate.
-![](images/nav.png)
-
+![](wireframes/nav.jpg) 
 
 # Wireframes
 **Desktops**
@@ -20,6 +19,7 @@ Teams
 ![](wireframes/desk-teams.jpg)
 Drivers
 ![](wireframes/desk-drivers.jpg)  
+
 
 **Mobile**
 Home
